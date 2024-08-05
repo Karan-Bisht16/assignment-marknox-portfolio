@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/assignment-marknox-portfolio/static/css/main.4f8f9a0a.css",
-    "main.js": "/assignment-marknox-portfolio/static/js/main.41838299.js",
+    "main.css": "/assignment-marknox-portfolio/static/css/main.43b6adb1.css",
+    "main.js": "/assignment-marknox-portfolio/static/js/main.8ac6b4da.js",
+    "static/media/img-sevakrit.jpg": "/assignment-marknox-portfolio/static/media/img-sevakrit.34574b4cffe30aee3d94.jpg",
+    "static/media/img-piet-mondrian.jpg": "/assignment-marknox-portfolio/static/media/img-piet-mondrian.25a12df2ee83f9b45716.jpg",
+    "static/media/img-syncspace.jpg": "/assignment-marknox-portfolio/static/media/img-syncspace.390f62ba3095d176f8cc.jpg",
+    "static/media/img-keeper-notes-app.jpg": "/assignment-marknox-portfolio/static/media/img-keeper-notes-app.d55ae4b9890070609e3b.jpg",
+    "static/media/img-quicklist.jpg": "/assignment-marknox-portfolio/static/media/img-quicklist.685442afef34c8265cdc.jpg",
+    "static/media/img-react-to-do-list.jpg": "/assignment-marknox-portfolio/static/media/img-react-to-do-list.f787b4e740cf7a6eab00.jpg",
     "index.html": "/assignment-marknox-portfolio/index.html",
-    "main.4f8f9a0a.css.map": "/assignment-marknox-portfolio/static/css/main.4f8f9a0a.css.map",
-    "main.41838299.js.map": "/assignment-marknox-portfolio/static/js/main.41838299.js.map"
+    "main.43b6adb1.css.map": "/assignment-marknox-portfolio/static/css/main.43b6adb1.css.map",
+    "main.8ac6b4da.js.map": "/assignment-marknox-portfolio/static/js/main.8ac6b4da.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f8f9a0a.css",
-    "static/js/main.41838299.js"
+    "static/css/main.43b6adb1.css",
+    "static/js/main.8ac6b4da.js"
   ]
 }
