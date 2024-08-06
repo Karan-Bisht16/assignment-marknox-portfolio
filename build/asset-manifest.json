@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/assignment-marknox-portfolio/static/css/main.f1a31f66.css",
-    "main.js": "/assignment-marknox-portfolio/static/js/main.fa3099e7.js",
+    "main.css": "/assignment-marknox-portfolio/static/css/main.21cd201f.css",
+    "main.js": "/assignment-marknox-portfolio/static/js/main.77447f39.js",
     "static/media/img-profile-image.png": "/assignment-marknox-portfolio/static/media/img-profile-image.c65aa3af0eb36fd1d26f.png",
     "static/media/img-sevakrit.jpg": "/assignment-marknox-portfolio/static/media/img-sevakrit.7d1c3995ffa1fae3c787.jpg",
     "static/media/img-piet-mondrian.jpg": "/assignment-marknox-portfolio/static/media/img-piet-mondrian.5826f26b25433319d527.jpg",
@@ -11,11 +11,11 @@
     "static/media/img-quicklist.jpg": "/assignment-marknox-portfolio/static/media/img-quicklist.e1672ac0add58d8f4013.jpg",
     "static/media/img-react-to-do-list.jpg": "/assignment-marknox-portfolio/static/media/img-react-to-do-list.cc5b9a4956c936a3c914.jpg",
     "index.html": "/assignment-marknox-portfolio/index.html",
-    "main.f1a31f66.css.map": "/assignment-marknox-portfolio/static/css/main.f1a31f66.css.map",
-    "main.fa3099e7.js.map": "/assignment-marknox-portfolio/static/js/main.fa3099e7.js.map"
+    "main.21cd201f.css.map": "/assignment-marknox-portfolio/static/css/main.21cd201f.css.map",
+    "main.77447f39.js.map": "/assignment-marknox-portfolio/static/js/main.77447f39.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1a31f66.css",
-    "static/js/main.fa3099e7.js"
+    "static/css/main.21cd201f.css",
+    "static/js/main.77447f39.js"
   ]
 }
