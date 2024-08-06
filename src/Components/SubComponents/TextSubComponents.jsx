@@ -22,14 +22,6 @@ export const Paragraph = ({ content }) => {
     );
 };
 
-export const ButtonLink = ({ link, text }) => {
-    return (
-        <a href={link} target="_blank" rel="noreferrer" className="w-1/2 px-6 my-3 text-center hover:text-violet-700">
-            {text}
-        </a>
-    );
-}
-
 export const ButtonIcon = ({ link, text, icon, sx }) => {
     return (
         <div className="group/link relative">
@@ -40,7 +32,7 @@ export const ButtonIcon = ({ link, text, icon, sx }) => {
             </a>
             <div className={`hidden w-max absolute ${sx} group-hover/link:block`}>
                 <div className="w-0 h-0 mt-2 mx-auto border-l-[5px] border-l-transparent border-b-[7.5px] border-b-gray-700 border-r-[5px] border-r-transparent"></div>
-                <div className="px-2 rounded-lg bg-gray-700">
+                <div className="px-2 rounded-lg text-white bg-black">
                     {text}
                 </div>
             </div>
