@@ -1,6 +1,3 @@
-import Dot from "./SubComponents/Dot";
-import ProjectCard from "./SubComponents/ProjectCard";
-import { Heading } from "./SubComponents/TextSubComponents";
 import syncspace from "../assets/projects/img-syncspace.jpg";
 import sevakrit from "../assets/projects/img-sevakrit.jpg";
 import quicklist from "../assets/projects/img-quicklist.jpg";
@@ -8,8 +5,12 @@ import keeperNotesApp from "../assets/projects/img-keeper-notes-app.jpg"
 import reactToDoList from "../assets/projects/img-react-to-do-list.jpg";
 import pietModrian from "../assets/projects/img-piet-mondrian.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import Dot from "./SubComponents/Dot";
+import ProjectCard from "./SubComponents/ProjectCard";
+import { Heading } from "./SubComponents/TextSubComponents";
 
 const Projects = () => {
+    // Array of projects with images, website links, git repository, and description
     const portfolios = [
         {
             src: syncspace, websiteLink: "https://syncspace-karan-bishts-projects.vercel.app/", githubRepositoryLink: "https://github.com/Karan-Bisht16/SyncSpace",
@@ -38,12 +39,12 @@ const Projects = () => {
     ];
 
     return (
-        <li name="projects" className="pt-4 sm:pt-16 mb-10 ms-4">
+        <li name="projects" className="pt-4 sm:pt-16 mb-4 ms-4">
             <Dot />
             <div className="relative -top-4">
                 <Heading title="Projects" />
                 {/* <div className="max-w-4xl grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0"> */}
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-1 sm:px-0">
+                <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-1 sm:px-0">
                     {portfolios.map((portfolio, index) => (
                         <ProjectCard key={index} portfolio={portfolio} />
                     ))}

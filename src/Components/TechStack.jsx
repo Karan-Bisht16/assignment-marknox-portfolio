@@ -4,10 +4,11 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import Dot from "./SubComponents/Dot";
 import SkillCard from "./SubComponents/SkillCard";
-import backgroundImage from "../assets/img-background.jpg"
 import { Heading, Paragraph } from "./SubComponents/TextSubComponents";
+import backgroundImage from "../assets/img-background.avif"
 
 function TechStack() {
+    // Array of tech skills with icons, titles, and styles
     const techs = [
         { src: <FaHtml5 />, title: "HTML", color: "text-orange-500", shadow: "shadow-orange-500" },
         { src: <FaCss3Alt />, title: "CSS", color: "text-[#214ce5]", shadow: "shadow-[#214ce5]" },
@@ -24,7 +25,7 @@ function TechStack() {
     ];
 
     return (
-        <li name="tech stack" className="pt-4 sm:pt-16 ms-4">
+        <li name="tech stack" className="pt-4 sm:pt-16 mb-4 ms-4">
             <Dot />
             <div className="relative -top-4">
                 <Heading title="Tech Stack" />
@@ -34,10 +35,8 @@ function TechStack() {
                 <div className="max-w-screen-lg mx-auto w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                     {techs.map(({ src, title, color, shadow }, index) => (
                         <motion.div
-                            initial={{ x: -20, opacity: 0 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5 }}
                             key={index}
+                            initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
                             className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg ${shadow}`}
                         >
                             <SkillCard title={title} src={src} color={color} />
@@ -45,15 +44,8 @@ function TechStack() {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center sm:mt-24">
-                <motion.img
-                    initial={{ x: 20, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0 }}
-                    src={backgroundImage}
-                    alt="my profile"
-                    className="rounded-2xl resize-none mx-auto w-11/12"
-                />
+            <div className="flex flex-col gap-2 items-center sm:mt-12">
+                <img src={backgroundImage} alt="my profile" className="rounded-2xl resize-none mx-auto w-11/12" />
                 <p className="text-xl font-semibold">Thanks for stopping by !</p>
             </div>
             <Dot />

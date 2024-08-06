@@ -5,14 +5,15 @@ import ToggleTheme from "./SubComponents/ToggleThemeButton";
 
 function Header(props) {
     const { theme, handleToggleTheme } = props;
+    // State to manage the navigation menu (open/close)
     const [nav, setNav] = useState(false);
-
+    // Array of page navigation links
     const pageNavigationLinks = [
         { link: "about" },
         { link: "projects" },
         { link: "tech stack" },
     ];
-
+    // Array of social media links with icons and URLs
     const socialLinks = [
         {
             icon: "https://cdn.lordicon.com/mqwitsmv.json",
@@ -28,7 +29,7 @@ function Header(props) {
     ];
 
     return (
-        <div className="flex justify-between items-center w-full h-20 px-4 fixed bg-transparent text-slate-800 dark:text-white bg-gradient-to-b from-slate-500 via-slate-300 to-transparent dark:from-gray-950 dark:via-slate-900 dark:to-transparent">
+        <div className="flex justify-between items-center w-full h-20 px-4 fixed text-slate-800 dark:text-white bg-gradient-to-b from-slate-300 to-transparent dark:from-black dark:to-transparent">
             <div className="text-3xl sm:text-5xl ml-2 p-2 rounded-xl bg-white select-none flex align-middle">
                 <span className="font-bold text-black">K
                     <span className="font-extrabold text-violet-700">.</span>
@@ -51,9 +52,9 @@ function Header(props) {
                     <a key={index} href={href} download={download} target="_blank" rel="noreferrer" className="font-semibold flex items-center gap-1.5 ml-3">
                         {text}
                         {theme === "dark" ?
-                            <lord-icon src={icon} trigger="hover" stroke="bold" colors="primary:white,secondary:white" style={{ height: "20px", width: "20px" }} />
+                            <lord-icon src={icon} trigger="loop-on-hover" stroke="bold" colors="primary:white,secondary:white" style={{ height: "20px", width: "20px" }} />
                             :
-                            <lord-icon src={icon} trigger="hover" stroke="bold" colors="primary:#0f172a,secondary:#0f172a" style={{ height: "20px", width: "20px" }} />
+                            <lord-icon src={icon} trigger="loop-on-hover" stroke="bold" colors="primary:#0f172a,secondary:#0f172a" style={{ height: "20px", width: "20px" }} />
                         }
                     </a>
                 ))}
@@ -76,9 +77,9 @@ function Header(props) {
                         <a key={index} href={href} download={download} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 px-4 cursor-pointer capitalize py-6 text-4xl hover:text-violet-700 hover:scale-125">
                             {text}
                             {theme === "dark" ?
-                                <lord-icon src={icon} trigger="hover" stroke="bold" colors="primary:white,secondary:white" style={{ height: "40px", width: "40px" }} />
+                                <lord-icon src={icon} trigger="loop-on-hover" stroke="bold" colors="primary:white,secondary:white" style={{ height: "40px", width: "40px" }} />
                                 :
-                                <lord-icon src={icon} trigger="hover" stroke="bold" colors="primary:#0f172a,secondary:#0f172a" style={{ height: "40px", width: "40px" }} />
+                                <lord-icon src={icon} trigger="loop-on-hover" stroke="bold" colors="primary:#0f172a,secondary:#0f172a" style={{ height: "40px", width: "40px" }} />
                             }
                         </a>
                     ))}
