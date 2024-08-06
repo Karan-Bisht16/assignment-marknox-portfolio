@@ -25,7 +25,7 @@ function Footer() {
         <footer className="px-6 pt-10 pb-6 w-full text-slate-800 dark:text-white bg-gradient-to-t from-slate-400 to-gray-100 dark:from-black dark:to-indigo-950">
             <div className="flex justify-between items-center">
                 <div>
-                    <div className=" w-[60px] text-3xl sm:text-5xl p-2 rounded-xl bg-white select-none flex align-middle">
+                    <div className=" w-[3.75rem] text-3xl sm:text-5xl p-2 rounded-xl bg-white select-none flex align-middle">
                         <span className="font-bold text-black">K
                             <span className="font-extrabold text-violet-700">.</span>
                         </span>

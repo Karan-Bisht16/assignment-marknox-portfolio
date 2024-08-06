@@ -64,7 +64,7 @@ function Home(props) {
                         <br />
                         Let me show <i><b>you</b></i>...
                     </motion.p>
-                    <motion.div variants={animateContainer(0.75)} initial="hidden" animate="visible" className="flex items-center mt-8 mb-4">
+                    <motion.div variants={animateContainer(0.75)} initial="hidden" animate="visible" className="flex items-center mt-4 sm:mt-8 mb-4">
                         <Link to="about" className="cursor-pointer flex items-center gap-2 text-sm text-white font-medium pl-5 pr-4 rounded-full bg-gray-800 hover:bg-gray-900 focus:outline-none dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700">
                             <span className="pt-2 pb-2.5">About me</span>
                             <FaLongArrowAltDown size={20} />
