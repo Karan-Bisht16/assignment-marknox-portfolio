@@ -64,7 +64,7 @@ function Header(props) {
                 {nav ? <FaTimes size={20} className="text-violet-700" /> : <FaBars size={20} />}
             </div>
             {nav && (
-                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-violet-200 via-violet-100 to-white dark:bg-gradient-to-b dark:from-black dark:to-violet-950">
+                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-slate-500 via-slate-300 to-slate-100 dark:bg-gradient-to-b dark:from-gray-950 dark:via-slate-800 dark:to-slate-700">
                     {pageNavigationLinks.map(({ link }, index) => (
                         <li key={index} className="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-violet-700 hover:scale-125">
                             <Link onClick={() => setNav(!nav)} to={link} smooth duration={200}>

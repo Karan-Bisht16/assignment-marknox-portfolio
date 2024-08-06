@@ -38,7 +38,7 @@ const Projects = () => {
     ];
 
     return (
-        <li name="projects" className="sm:pt-16 mb-10 ms-4">
+        <li name="projects" className="pt-4 sm:pt-16 mb-10 ms-4">
             <Dot />
             <div className="relative -top-4">
                 <Heading title="Projects" />

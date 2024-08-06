@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Dot from "./SubComponents/Dot";
-// import profileImage from "../assets/img-profile-image.png";
+import profileImage from "../assets/img-profile-image.png";
 
 function Home() {
     const letters = `!#$%&0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz|`;
@@ -57,18 +57,26 @@ function Home() {
                     <motion.p variants={animateContainer(0.25)} initial="hidden" animate="visible" className="mt-2 text-xl sm:text-3xl font-normal text-gray-600 dark:text-gray-400">
                         I <i>design</i> and develop <span id="scrambledText" className="font-bold text-2xl sm:text-4xl text-slate-800 dark:text-white">Websites</span>
                     </motion.p>
-                    <motion.p variants={animateContainer(0.5)} initial="hidden" animate="visible" className="mb-8 text-md sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
+                    <motion.p variants={animateContainer(0.5)} initial="hidden" animate="visible" className="text-md sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
                         I am passionate about creating beautiful products and data driven experiences that <b>empower</b> people
                         <br />
                         Let me show <i><b>you</b></i>...
                     </motion.p>
-                    <motion.div variants={animateContainer(0.75)} initial="hidden" animate="visible" className="flex items-center">
+                    <motion.div variants={animateContainer(0.75)} initial="hidden" animate="visible" className="flex items-center my-4">
                         <Link to="about" className="cursor-pointer flex items-center gap-2 text-sm text-white font-medium pl-5 pr-4 bg-gray-800 hover:bg-gray-900 focus:outline-none rounded-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700">
                             <span className="py-2.5">About me</span>
                             <FaLongArrowAltDown size={20} />
                         </Link>
                     </motion.div>
                 </div>
+                <motion.img
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.5, delay: 0 }}
+                    src={profileImage}
+                    alt="my profile"
+                    className="rounded-2xl resize-none mx-auto w-3/4 md:w-72 xl:w-96"
+                />
             </div>
         </li>
 

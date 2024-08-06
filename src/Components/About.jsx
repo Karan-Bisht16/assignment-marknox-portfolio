@@ -3,7 +3,7 @@ import { Heading, Paragraph } from "./SubComponents/TextSubComponents";
 
 function About() {
     return (
-        <li name="about" className="sm:pt-16 mb-10 ms-4">
+        <li name="about" className="pt-4 sm:pt-16 mb-10 ms-4">
             <Dot />
             <div className="relative -top-4">
                 <Heading title="About" />
