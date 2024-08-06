@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
     return (
         <motion.div
             initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
-            className="lg:grid grid-cols-4 border-2 border-slate-800 rounded-lg my-4"
+            className="lg:grid grid-cols-4 border-2 border-slate-800 rounded-lg my-2"
         >
             <div className="select-none border-2 border-slate-800 rounded-lg md:border-none shadow-md hover:shadow-[0px_0px_20px_2.5px_#00000024]">
                 <div className="group/card relative">
