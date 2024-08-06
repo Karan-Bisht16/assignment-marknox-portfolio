@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/assignment-marknox-portfolio/static/css/main.f81f9e83.css",
-    "main.js": "/assignment-marknox-portfolio/static/js/main.13c97605.js",
+    "main.css": "/assignment-marknox-portfolio/static/css/main.8306d879.css",
+    "main.js": "/assignment-marknox-portfolio/static/js/main.fe8e601b.js",
     "static/media/img-profile-image.png": "/assignment-marknox-portfolio/static/media/img-profile-image.b80bcb607b0d35ade5e0.png",
-    "static/media/img-background.jpg": "/assignment-marknox-portfolio/static/media/img-background.d940689e904a7f0a0fda.jpg",
     "static/media/img-sevakrit.jpg": "/assignment-marknox-portfolio/static/media/img-sevakrit.34574b4cffe30aee3d94.jpg",
     "static/media/img-piet-mondrian.jpg": "/assignment-marknox-portfolio/static/media/img-piet-mondrian.25a12df2ee83f9b45716.jpg",
     "static/media/img-syncspace.jpg": "/assignment-marknox-portfolio/static/media/img-syncspace.390f62ba3095d176f8cc.jpg",
     "static/media/img-keeper-notes-app.jpg": "/assignment-marknox-portfolio/static/media/img-keeper-notes-app.d55ae4b9890070609e3b.jpg",
     "static/media/img-quicklist.jpg": "/assignment-marknox-portfolio/static/media/img-quicklist.685442afef34c8265cdc.jpg",
+    "static/media/img-background.avif": "/assignment-marknox-portfolio/static/media/img-background.a182acea837ca872bd56.avif",
     "static/media/img-react-to-do-list.jpg": "/assignment-marknox-portfolio/static/media/img-react-to-do-list.f787b4e740cf7a6eab00.jpg",
     "index.html": "/assignment-marknox-portfolio/index.html",
-    "main.f81f9e83.css.map": "/assignment-marknox-portfolio/static/css/main.f81f9e83.css.map",
-    "main.13c97605.js.map": "/assignment-marknox-portfolio/static/js/main.13c97605.js.map"
+    "main.8306d879.css.map": "/assignment-marknox-portfolio/static/css/main.8306d879.css.map",
+    "main.fe8e601b.js.map": "/assignment-marknox-portfolio/static/js/main.fe8e601b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f81f9e83.css",
-    "static/js/main.13c97605.js"
+    "static/css/main.8306d879.css",
+    "static/js/main.fe8e601b.js"
   ]
 }
